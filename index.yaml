@@ -3,7 +3,7 @@ entries:
   openshell-ztm-demo:
   - apiVersion: v2
     appVersion: 0.1.6
-    created: "2026-10-31T22:07:05.705199+08:00"
+    created: "2026-11-01T00:05:22.965633+08:00"
     dependencies:
     - alias: openshell
       name: helm-chart
@@ -13,7 +13,7 @@ entries:
       OpenShell Helm chart and adds ZTVP integration (SPIFFE, Vault, Keycloak, ACS)
       plus a pre-configured Pi agent sandbox with zero-trust policies. One-click install
       from the OpenShift Developer Catalog. '
-    digest: 3a4cbb2cea81856b775b5d43babff546eac994dd9111164d2271ad4f96b53cca
+    digest: 83318272c512dee7cb6939a2dcdc9a646588498362cef59781bf27f8d0402229
     icon: https://raw.githubusercontent.com/NVIDIA/OpenShell/main/docs/static/logo-dark.svg
     keywords:
     - zero-trust
@@ -30,33 +30,4 @@ entries:
     urls:
     - https://avijra.github.io/openshell-ztm-demo-chart/openshell-ztm-demo-1.0.0.tgz
     version: 1.0.0
-  - apiVersion: v2
-    appVersion: 0.1.6
-    created: "2026-10-31T22:07:05.7012+08:00"
-    dependencies:
-    - alias: openshell
-      name: helm-chart
-      repository: oci://ghcr.io/nvidia/openshell
-      version: 0.1.6
-    description: 'OpenShell + Pi AI Agent on Zero Trust Mesh. Wraps the official NVIDIA
-      OpenShell Helm chart and adds ZTVP integration (SPIFFE, Vault, Keycloak, ACS)
-      plus a pre-configured Pi agent sandbox with zero-trust policies. One-click install
-      from the OpenShift Developer Catalog. '
-    digest: 1cc6ebaf5ec306e0d1e31c29d6dda949862670b3dee253a4e1eb209cff01b0b8
-    icon: https://raw.githubusercontent.com/NVIDIA/OpenShell/main/docs/static/logo-dark.svg
-    keywords:
-    - zero-trust
-    - ai-agents
-    - openshell
-    - security
-    - sandbox
-    - pi
-    - deepseek
-    maintainers:
-    - name: DSTA Demo Team
-    name: openshell-ztm-demo
-    type: application
-    urls:
-    - https://avijra.github.io/openshell-ztm-demo-chart/openshell-ztm-demo-0.3.0.tgz
-    version: 0.3.0
-generated: "2026-10-31T22:07:05.695915+08:00"
+generated: "2026-11-01T00:05:22.961145+08:00"
