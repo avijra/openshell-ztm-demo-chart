@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <!-- Shield -->
+  <path d="M64 8L16 32v32c0 28 20 52 48 60 28-8 48-32 48-60V32L64 8z" fill="#1a1a2e" stroke="#76b900" stroke-width="3"/>
+  <!-- Terminal prompt -->
+  <path d="M40 52l14 12-14 12" stroke="#76b900" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="60" y1="76" x2="88" y2="76" stroke="#76b900" stroke-width="4" stroke-linecap="round"/>
+  <!-- AI sparkle -->
+  <circle cx="88" cy="44" r="3" fill="#76b900"/>
+  <circle cx="80" cy="38" r="2" fill="#76b900" opacity="0.6"/>
+  <circle cx="94" cy="50" r="2" fill="#76b900" opacity="0.6"/>
+  <!-- Lock -->
+  <rect x="54" y="42" width="12" height="10" rx="2" fill="#76b900" opacity="0.8"/>
+  <path d="M56 42v-4a4 4 0 018 0v4" stroke="#76b900" stroke-width="2" fill="none" opacity="0.8"/>
+</svg>
