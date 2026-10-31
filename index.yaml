@@ -1,0 +1,28 @@
+apiVersion: v1
+entries:
+  openshell-ztm-demo:
+  - apiVersion: v2
+    appVersion: 0.1.6
+    created: "2026-10-31T20:06:22.095028+08:00"
+    description: 'OpenShell + Pi AI Agent on Zero Trust Mesh. Deploys the OpenShell
+      secure agent runtime integrated with ZTVP (SPIFFE, Vault, Keycloak, ACS) and
+      a pre-configured Pi agent sandbox with zero-trust network/filesystem policies.
+      One-click install from the OpenShift Developer Catalog. '
+    digest: 2dca7ac16c199adb8f9c796837242203a87fe0dfcc211a95a00c9d19bcbe49a1
+    icon: https://raw.githubusercontent.com/NVIDIA/OpenShell/main/docs/static/logo-dark.svg
+    keywords:
+    - zero-trust
+    - ai-agents
+    - openshell
+    - security
+    - sandbox
+    - pi
+    - deepseek
+    maintainers:
+    - name: DSTA Demo Team
+    name: openshell-ztm-demo
+    type: application
+    urls:
+    - https://avijra.github.io/openshell-ztm-demo-chart/openshell-ztm-demo-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-10-31T20:06:22.093655+08:00"
