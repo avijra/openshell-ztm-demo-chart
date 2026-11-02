@@ -3,7 +3,36 @@ entries:
   openshell-ztm-demo:
   - apiVersion: v2
     appVersion: 0.1.6
-    created: "2026-11-02T09:23:28.688785+08:00"
+    created: "2026-11-02T09:32:20.061136+08:00"
+    dependencies:
+    - alias: openshell
+      name: helm-chart
+      repository: oci://ghcr.io/nvidia/openshell
+      version: 0.1.6
+    description: 'OpenShell + Pi AI Agent on Zero Trust Mesh. Wraps the official NVIDIA
+      OpenShell Helm chart and adds ZTVP integration (SPIFFE, Vault, Keycloak, ACS)
+      plus a pre-configured Pi agent sandbox with zero-trust policies. One-click install
+      from the OpenShift Developer Catalog. '
+    digest: 6e68c6497d07ede1b8c7bb9fa16d9ccab7e2c919b692c772324657f8a42c191d
+    icon: https://avijra.github.io/openshell-ztm-demo-chart/logo.svg
+    keywords:
+    - zero-trust
+    - ai-agents
+    - openshell
+    - security
+    - sandbox
+    - pi
+    - maas
+    maintainers:
+    - name: DSTA Demo Team
+    name: openshell-ztm-demo
+    type: application
+    urls:
+    - https://avijra.github.io/openshell-ztm-demo-chart/openshell-ztm-demo-1.3.1.tgz
+    version: 1.3.1
+  - apiVersion: v2
+    appVersion: 0.1.6
+    created: "2026-11-02T09:32:20.05616+08:00"
     dependencies:
     - alias: openshell
       name: helm-chart
@@ -32,7 +61,7 @@ entries:
     version: 1.3.0
   - apiVersion: v2
     appVersion: 0.1.6
-    created: "2026-11-02T09:23:28.684389+08:00"
+    created: "2026-11-02T09:32:20.05173+08:00"
     dependencies:
     - alias: openshell
       name: helm-chart
@@ -61,7 +90,7 @@ entries:
     version: 1.2.0
   - apiVersion: v2
     appVersion: 0.1.6
-    created: "2026-11-02T09:23:28.679649+08:00"
+    created: "2026-11-02T09:32:20.046782+08:00"
     dependencies:
     - alias: openshell
       name: helm-chart
@@ -88,4 +117,4 @@ entries:
     urls:
     - https://avijra.github.io/openshell-ztm-demo-chart/openshell-ztm-demo-1.1.0.tgz
     version: 1.1.0
-generated: "2026-11-02T09:23:28.674144+08:00"
+generated: "2026-11-02T09:32:20.041837+08:00"
